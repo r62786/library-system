@@ -1,0 +1,124 @@
+{
+ "kind": "placement-results",
+ "version": 1,
+ "mode": "D",
+ "lang": "csharp",
+ "created": "2026-11-17T17:04:49",
+ "created_epoch": 1794927889865,
+ "at": null,
+ "build": {
+  "ok": true,
+  "output": "Build succeeded.\n    1 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:03.39",
+  "ms": 3678
+ },
+ "runs": [
+  {
+   "file": "check2.txt",
+   "exit": 0,
+   "timed_out": false,
+   "ms": 80,
+   "stdout": "FINES\r\n201,הניה ברק,40\r\n202,צפורה לנדאו,6\r\n214,זלדה פרי,6\r\n203,גליה שפירא,5\r\n204,דליה כהנא,25\r\n205,יוכבד ליבר,2\r\n206,תמר אלון,0\r\n207,שולמית רז,0\r\n208,רות בן דוד,0\r\n209,ברכה טל,1\r\n210,טליה נוי,13\r\n211,פזית הורוביץ,0\r\n212,נאוה שגיא,0\r\n213,חיה מור,5\r\n217,מרים אשכנזי,3\r\n218,אילנה צור,3\r\nFLAGGED\r\n211,פזית הורוביץ\r\nERRORS\r\nTOTAL,109\r\nTOP_BOOKS\r\nbook,count\r\nאיסתרק,5\r\nקיצור שולחן ערוך,5\r\nעולם חירש,4\r\nAT_RISK\r\n",
+   "stderr_tail": "skeleton ok: read check2.txt - report day 200 - 17 rows",
+   "decode_problem": false
+  }
+ ],
+ "sample_run": {
+  "file": "sample.txt",
+  "exit": 0,
+  "timed_out": false,
+  "ms": 81,
+  "stdout": "FINES\r\n11,רחל כהן,1\r\n12,מרים לוי,40\r\n21,שרה גולד,0\r\n31,לאה רוזן,8\r\nFLAGGED\r\n21,שרה גולד\r\nERRORS\r\n13,דינה אבן,student,קיצור שולחן ערוך,50,45\r\nTOTAL,49\r\nTOP_BOOKS\r\nbook,count\r\nעולם חירש,2\r\nאיסתרק,1\r\nלהשאר יהודי,1\r\nAT_RISK\r\n",
+  "stderr_tail": "skeleton ok: read sample.txt - report day 120 - 6 rows",
+  "decode_problem": false
+ },
+ "warnings": [],
+ "files": [
+  {
+   "path": "app/Program.cs",
+   "lines": 274,
+   "classes": [
+    "Program",
+    "ReaderType",
+    "ReaderSummary"
+   ],
+   "functions": [
+    {
+     "name": "Main",
+     "lines": 11
+    },
+    {
+     "name": "ReadReportDay",
+     "lines": 4
+    },
+    {
+     "name": "ReadRows",
+     "lines": 12
+    },
+    {
+     "name": "FindSample",
+     "lines": 11
+    },
+    {
+     "name": "ReadRawRows",
+     "lines": 10
+    },
+    {
+     "name": "PrintReport",
+     "lines": 71
+    },
+    {
+     "name": "FormatNumber",
+     "lines": 4
+    },
+    {
+     "name": "TryValidateRow",
+     "lines": 28
+    },
+    {
+     "name": "ParseReaderType",
+     "lines": 11
+    },
+    {
+     "name": "CalculateFine",
+     "lines": 11
+    },
+    {
+     "name": "CalculateStudentFine",
+     "lines": 11
+    },
+    {
+     "name": "CalculateGuestFine",
+     "lines": 11
+    },
+    {
+     "name": "CalculateAlumnaFine",
+     "lines": 12
+    },
+    {
+     "name": "GetBorrowedDays",
+     "lines": 6
+    },
+    {
+     "name": "IsFlaggedTeacher",
+     "lines": 8
+    },
+    {
+     "name": "ReaderSummary",
+     "lines": 5
+    },
+    {
+     "name": "AddLoan",
+     "lines": 6
+    }
+   ],
+   "type_ifs": 0
+  }
+ ],
+ "git": {
+  "available": true,
+  "commit": "",
+  "note": "nothing new to commit",
+  "log": "",
+  "numstat": ""
+ }
+}
